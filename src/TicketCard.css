@@ -1,0 +1,75 @@
+/* General card styling */
+.ticket-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    margin: 10px 0px;
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header: includes the ID and avatar */
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-id {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #666;
+  }
+  
+  /* Avatar styling */
+  .ticket-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Ticket title styling */
+  .ticket-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    text-align: left;
+  }
+  
+  /* Footer section */
+  .ticket-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  /* Priority icon */
+  .ticket-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    font-size: 1rem;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  /* Ticket label/tag */
+  .ticket-label {
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 4px
+  }
+  .ticket-card{
+    font-size: 15px !important;
+  }
