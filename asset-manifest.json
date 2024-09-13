@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react/Kanban-Assesment/static/css/main.6d83e574.css",
+    "main.js": "/react/Kanban-Assesment/static/js/main.f9148dce.js",
+    "index.html": "/react/Kanban-Assesment/index.html",
+    "main.6d83e574.css.map": "/react/Kanban-Assesment/static/css/main.6d83e574.css.map",
+    "main.f9148dce.js.map": "/react/Kanban-Assesment/static/js/main.f9148dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d83e574.css",
+    "static/js/main.f9148dce.js"
+  ]
+}
